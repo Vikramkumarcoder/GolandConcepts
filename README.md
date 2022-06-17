@@ -2,6 +2,7 @@
 ### In this project you can learn about Go language
 ![This is an image](https://camo.githubusercontent.com/2b507540e2681c1a25698f246b9dca69c30548ed66a7323075b0224cbb1bf058/68747470733a2f2f676f6c616e672e6f72672f646f632f676f706865722f6669766579656172732e6a7067) 
 
+
 ### First Program
 
 // **for Single line comment**
@@ -18,23 +19,35 @@
 
 ### Variable
 
-**package main
-import "fmt"
-var i = 8
-var x, y int = 6,10
-var m, n, o = 1,2,3**
+**package main**
 
->//The := called initializer operator automatically defines and initialized variables with the given value.
+**import "fmt"**
+
+**var i = 8**
+
+**var x, y int = 6,10**
+
+**var m, n, o = 1,2,3**
+
+>**":="** is called initializer operator automatically defines and initialized variables with the given value.
+
 >/*Let's see what other common types Go supports.
->float32 - a single-precision floating point value.
->float64 - a double-precision floating point value.
->string - a text value.
->bool - Boolean true or false.*/
 
-var q int = 19
-var u string = "Vikram"
-var w float32 = 1.49
-var t bool = true
+>**float32** - a single-precision floating point value.
+
+>**float64** - a double-precision floating point value.
+
+>**string** - a text value.
+
+>**bool** - Boolean true or false.*/
+
+**var q int = 19**
+
+**var u string = "Vikram"**
+
+**var w float32 = 1.49**
+
+**var t bool = true**
 
 /*interesting feature of Go are zero values: variables that are declared without a value take the zero value of their type:
 0 for numeric types,
