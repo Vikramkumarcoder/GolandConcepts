@@ -49,31 +49,54 @@
 
 **var t bool = true**
 
-/*interesting feature of Go are zero values: variables that are declared without a value take the zero value of their type:
-0 for numeric types,
-false for the boolean type, 
-"" for strings.*/
-var qt int
-var ut string
-var wt float32
-var tt bool
+>interesting feature of Go are zero values: variables that are declared without a value take the zero value of their type:
 
-//In some cases your program may need values that are preserved during the program. These are called constants and they cannot be changed from their initial value.
-const pi = 3.14
-func main() {
-    v := 20
-    vat := true
-    //Constants cannot be declared using the := syntax.
-    fmt.Println(i)
-    fmt.Println(y,x)
-    fmt.Println(m, n, o)
-    fmt.Println(v)
-    fmt.Println(q)
-    fmt.Println(u)
-    fmt.Println(w)
-    fmt.Println(t)
-    fmt.Println(vat)
-    fmt.Println(qt, ut, wt, tt)
-    fmt.Println(pi)
+>**0** for numeric types,
 
-}
+>**false** for the boolean type,
+
+>**" "** for strings.
+
+**var qt int**
+
+**var ut string**
+
+**var wt float32**
+
+**var tt bool**
+
+>In some cases your program may need values that are preserved during the program. These are called constants and they cannot be changed from their initial value.
+
+**const pi = 3.14**
+
+**func main() {**
+
+**v := 20**
+
+**vat := true**
+
+>Constants cannot be declared using the := syntax.
+
+**fmt.Println(i)**
+
+**fmt.Println(y,x)**
+
+**fmt.Println(m, n, o)**
+
+**fmt.Println(v)**
+
+**fmt.Println(q)**
+
+**fmt.Println(u)**
+
+**fmt.Println(w)**
+
+**fmt.Println(t)**
+
+**fmt.Println(vat)**
+
+**fmt.Println(qt, ut, wt, tt)**
+
+**fmt.Println(pi)**
+
+**}**
