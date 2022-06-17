@@ -4,99 +4,91 @@
 
 
 ### First Program
+``` go
+// "//" for Single line comment
 
-// **for Single line comment**
+// /* something */ **for multi-line comment**
 
-/* something */ **for multi-line comment**
+package main   //Package name is "main"
 
-**package main**   //Package name is "main"
+import "fmt"  //fmt = format
 
-**import "fmt"**  //fmt = format
-
-**func main() {
+func main() {
    fmt.Println("Hello World")
-}**
+}
+```
 
 ### Variable
 
-**package main**
+```go
+package main
 
-**import "fmt"**
+import "fmt"
 
-**var i = 8**
+var i = 8
+var x, y int = 6,10
+var m, n, o = 1, 2, 3
 
-**var x, y int = 6,10**
+/* ":=" is called initializer operator automatically defines and initialized variables with the given value.
 
-**var m, n, o = 1,2,3**
+Let's see what other common types Go supports.
 
->**":="** is called initializer operator automatically defines and initialized variables with the given value.
+float32 - a single-precision floating point value.
 
->/*Let's see what other common types Go supports.
+float64 - a double-precision floating point value.
 
->**float32** - a single-precision floating point value.
+string - a text value.
 
->**float64** - a double-precision floating point value.
+bool - Boolean true or false.*/
 
->**string** - a text value.
+var q int = 19
+var u string = "Vikram"
+var w float32 = 1.49
+var t bool = true
 
->**bool** - Boolean true or false.*/
+/*interesting feature of Go are zero values: variables that are declared without a value take the zero value of their type:
 
-**var q int = 19**
+0 for numeric types,
 
-**var u string = "Vikram"**
+false for the boolean type,
 
-**var w float32 = 1.49**
+"" for strings.*/
 
-**var t bool = true**
+var qt int
+var ut string
+var wt float32
+var tt bool
 
->interesting feature of Go are zero values: variables that are declared without a value take the zero value of their type:
+//In some cases your program may need values that are preserved during the program. These are called constants and they cannot be changed from their initial value.
 
->**0** for numeric types,
+const pi = 3.14
+func main() {
+    v := 20
+    vat := true
 
->**false** for the boolean type,
+    //Constants cannot be declared using the := syntax.
 
->**" "** for strings.
+    fmt.Println(i)
 
-**var qt int**
+    fmt.Println(y,x)
 
-**var ut string**
+    fmt.Println(m, n, o)
 
-**var wt float32**
+    fmt.Println(v)
 
-**var tt bool**
+    fmt.Println(q)
 
->In some cases your program may need values that are preserved during the program. These are called constants and they cannot be changed from their initial value.
+    fmt.Println(u)
 
-**const pi = 3.14**
+    fmt.Println(w)
 
-**func main() {**
+    fmt.Println(t)
 
-**v := 20**
+    fmt.Println(vat)
 
-**vat := true**
+    fmt.Println(qt, ut, wt, tt)
 
->Constants cannot be declared using the := syntax.
+    fmt.Println(pi)
 
-**fmt.Println(i)**
-
-**fmt.Println(y,x)**
-
-**fmt.Println(m, n, o)**
-
-**fmt.Println(v)**
-
-**fmt.Println(q)**
-
-**fmt.Println(u)**
-
-**fmt.Println(w)**
-
-**fmt.Println(t)**
-
-**fmt.Println(vat)**
-
-**fmt.Println(qt, ut, wt, tt)**
-
-**fmt.Println(pi)**
-
-**}**
+}
+```
