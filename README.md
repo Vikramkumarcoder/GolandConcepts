@@ -36,3 +36,52 @@ In this Notes you can learn about Go language
 | 30 |  [Conclusions](./30_Day_Conclusions/30_conclusions.md)|
 
 💻💻💻 Enjoy CODING 💻💻💻
+
+### What is Go?
+Go (also called Golang or Go language) is an open source programming language used for general purpose. Go was developed by Google engineers to create dependable and efficient software. Most similarly modeled after C, Go is statically typed and explicit.
+
+The language was designed by taking inspiration for the productivity and relative simplicity of Python, with the ability of C. Some of the problems that Go addresses are slow build time, uncontrolled dependencies, effort duplication, difficulty of writing automatic tools and cross-language development.
+
+Go works by using "goroutines," or lightweight processes, which allows further efficiencies. Go also uses a collection of packages for efficient dependency management.
+
+Some examples of organizations that use Go include Google, Cloudflare, Dropbox, MongoDB, Netflix, SoundCloud, Twitch and Uber.
+
+### What does the Go programming language do?
+
+Go includes a number of features such as its standard library, package management, static typing, support for testing as well as its platform independence. Go's standard library is based off the use of distributed packages. Package management refers to how Go will manage support for user-based and external package management. Packages can be published using a small set of commands. Static typing is a type system that ensures conversions and compatibility while avoiding the issues that come with dynamically typed languages. Go also supports unit tests to run in parallel with written code. In addition, due to Go's modular design, the code can be compiled onto almost any platform.
+
+More specifically, Go uses lightweight processes that enable concurrent processing and behave like threads. The syntax will mimic patterns commonly seen in dynamic languages. Golang favors composition interfaces over inheritance. Some of Go's tools worth highlighting are its "Gofmt" feature that automatically formats and indents code for readability, "Go run" that compiles and runs code simultaneously, "Go get" that seamlessly integrates with GitHub and "Godoc" that generates HTML-based documentation according to the code structure and developer comments.
+
+### Benefits of Go
+- Using Go over other programming languages has a number of advantages, such as:
+
+- Quick compilation and execution speed
+
+- No virtual machine (VM) needed
+
+- Portability
+
+- Lightweight goroutines that support concurrency
+
+- Interfaces enable loosely coupled systems
+
+- Automatic garbage collection
+
+- Memory safety
+
+- Independent error handling
+
+- Extensive built-in libraries
+
+### Drawbacks of Go
+**Some potential drawbacks include:**
+
+- Does not support generics, or the ability to write abstract, implicit code
+
+- Lack of runtime safety
+
+- Enforces strict rules
+
+- Incompatible with function overloading
+
+- Not conventionally object-oriented
