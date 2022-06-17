@@ -1,4 +1,4 @@
-# GolandConcepts
+# Goland(Go) Notes
 In this project you can learn about Go language
 
 #First Program
