@@ -5,9 +5,9 @@ In this Notes you can learn about Go language
 |# Day | Topics                                                    |
 |------|:---------------------------------------------------------:|
 | 01  |  [Introduction](./README.md)|
-| 02  |  [First Program](./BasicConcepts/First_program.md)|
-| 03  |  [Variables](./BasicConcepts/Variables.md)|
-| 03  |  [Operators](./BasicConcepts/Operator.md)|
+| 02  |  [First Program](./BasicConcept/First_program.md)|
+| 03  |  [Variables](./BasicConcept/Variables.md)|
+| 03  |  [Operators](./BasicConcept/Operator.md)|
 | 04  |  [Strings](./04_Day_Strings/04_strings.md)|
 | 05  |  [Lists](./05_Day_Lists/05_lists.md)|
 | 06  |  [Tuples](./06_Day_Tuples/06_tuples.md)|
