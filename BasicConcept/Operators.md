@@ -35,7 +35,7 @@ func main() {
 
 # Relational Operator
 
-## Relational operators are used to compare two values and return a bool as the result: true when the comparison condition holds, and false when it does not.
+- Relational operators are used to compare two values and return a bool as the result: true when the comparison condition holds, and false when it does not.
 
 ```go
 package main
@@ -63,6 +63,40 @@ func main() {
     
     // less than or equal to
     fmt.Println(x <= y)
+
+}
+```
+
+# Logical Operators
+
+- Logical operators are used to combine two or more conditions.
+
+- The logical AND && operator returns true only when both conditions are true. 
+
+- The logical OR || operator returns true when one (or both) of the conditions are true.
+
+- The logical NOT ! operator returns true when the condition is false (basically reversing the result of the condition).
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+    x := 55
+    y := 9
+    
+    // logical AND
+    fmt.Println(x!=y && x<=y)
+    
+    // locial OR
+    fmt.Println(x!=y || x<=y)
+    
+    // logical NOT
+    fmt.Println(!(x>y))
+    
+    // Multiple Combination
+    fmt.Println((x>0 && x<100) || x==55)
 
 }
 ```
